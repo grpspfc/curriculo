@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.pagina{
+    background-color: #3761cc;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    margin: 15px;
+}
+.titulo{
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    margin: 15px;
+}
+.texto{
+    text-align: center;
+    max-width: 90%;
+    margin: 15px;
+}
+.links img{
+    margin: 5px;
+
+}
